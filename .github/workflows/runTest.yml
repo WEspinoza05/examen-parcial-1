@@ -8,7 +8,8 @@ on:
 
 jobs:
   run_tests:  
-    
+    name: Install node module and run unit test
+
     runs-on: ubuntu-latest
 
     strategy:
